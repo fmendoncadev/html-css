@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="mundo.ico" type="image/x-icon">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos deiferentes,<br> ou simplismente aumente o tamanho do seu navegador:</p>
+    <p><li>Trabalhando com "larguras" em HTML, sem JavaScript sem CSS.</li></p>
+
+    <p>
+        <li>Conforme você aumeta ou diminuia imagens, elas se ajustão!</li>
+        <li>Os <strong>1050px</strong> , <strong>(o 50)</strong> e macete para ficar melhor pro usuario.</li>
+        <li>Facilita muito a vida do usuario!</li>
+        <li>Pois ele demora mais pra sair do seu site isso melhora sua taxa</li>
+        <li>E os mecanismos de busca do Google vão valorizar isso!</li>
+        <hr>
+        <ol >
+            <li><strong>Azul</strong> = "celular"</li>
+            <li><strong>Verde</strong> = "tablet"</li>
+            <li><strong>Preto</strong> = "Not, tv e mais...." </li>
+        </ol>
+        <hr>
+    </p>
+     
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/fotos-p.png" type="image/png">
+        
+        <source media="(max-width:1050px )" srcset="imagens/fotos-m.png" type="image/png">
+        <img src="imagens/fotos-g.png">
+
+
+    </picture>
+      <h1>Repreduzindo áudio</h1>
+    <p>Vmaos aprender a reproduzir áudos em HTML5.</p>
+    <li>Aqui usei o mais simples pode ser que <br> não toque em qualquer navegador!</li>
+    <audio src="midia/happy-mistake.mp3" controls autoplay></audio>
+    
+    
+
+
+
+    <hr>
+    <li>Coloquei o meu abaixo o formato mais usado!</li>
+    <li>tag = (audio preload)</li>
+    <hr>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/ex.0024mp3.mp3" type="audio/mpeg">
+        <source src="midia/guanabara-33.ogg" type="audio/ogg">
+        
+    </audio>
+    <p><li>Infelizmente seu navegador não consegue reproduzir áudio.<a href="midia/ex.0024mp3.mp3">Clique aqui para baixar o arquivo MP3</a></li></p>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+main{
+    background-color: rgb(152, 124, 231);
+    width: 50px;
+    text-align: center;
+    color: white;
+    border: solid black;
+}

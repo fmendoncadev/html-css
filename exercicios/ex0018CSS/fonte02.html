@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="mundo.ico" type="image/x-icon">
+    <title>Fontes Exeternas</title>
+    <style>
+        
+        @font-face {
+            font-family:'love' ;
+            src: url(fontes/love\ larry\ ttf.ttf) format('truetype') ;
+        font-weight: normal;
+        font-style: normal;
+        }
+       /* Pois como teve atualização do sistema, 
+       qaundo eu baixar a fonte e digitar no SRC:URL('') o prorpio Visual Studio ja colocar numa pasta.
+         Alem tenho que colocar o tipo de formato:
+         Ex:        tipos de formato 
+                opentype (otf)
+                truetype (ttf)
+                embedded-aat (apple advanced typography)
+                svg
+        obs: 
+           Nesse exeplo eu Baixei e CRIEI uma fonte 
+           dentro do @font-face!
+       */
+        body{
+
+            font-family: Arial, Helvetica, sans-serif ;
+        }
+        
+        h1{
+            font-family: 'love', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        /* Para usa a fonte nova e so colocar o Nome dela que crie acima chamada 'love'*/ 
+        }
+    </style>
+</head>
+<body>
+    <h1>Título Amor!</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, magni commodi pariatur cum eligendi hic fuga mollitia obcaecati repudiandae velit dicta vitae officia enim! Cum incidunt ducimus voluptates harum error?</p>
+</body>
+</html>
